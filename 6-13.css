@@ -1,0 +1,312 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.all{
+	height:190px;
+	border-bottom:4px solid  #3aa747;
+}
+.small{
+	height:190px;
+	width:1200px;
+	margin:0 auto;
+}
+.rr {
+	height:32px;
+	width:1200px;
+	background-color:#ffffff;	
+}
+.rr ul{
+	margin-left:528px;
+	line-height:32px;
+}
+.rr li{
+	float:left;
+	font-size:14px;
+	color:#5d5a5c;
+}
+.rr .x1{
+	margin-left:7px;
+}
+.rr .x1 span{
+	margin-left:23px;
+}
+.rr .x1 span a{
+	color:#5d5a5c;
+	font-size:14.78px;
+	font-weight:bold;
+}
+.rr .tmm{
+	width:85px;
+	height:30px;
+	font-size:14.78px;
+    margin-left:44px;
+	background:url('所需小图/sanjiao.png') no-repeat 70px;
+}
+.tt{
+	margin-left: 33px;
+	margin-top:3px;	
+}
+.mi{
+	height:158px;
+	width:1200px;
+	background-color:#ffffff;
+	position:relative;
+}
+.tu img{
+	margin-top:30px;
+}
+.border{
+	width:543px;
+	height:47px;
+	border:1px solid #393942;
+    position:absolute;
+    left:409px;
+    bottom:62px;
+}
+.border .text{
+	width:290px;
+	height:43px;
+	padding-left:250px;
+}
+.pp{
+	height:47px;
+	width:60px;
+	border:1px solid #393942;
+	margin-top:3px;
+	position:absolute;
+    left:952px;
+    bottom:62px;
+}
+.pp img{
+	margin-top:5px;
+	margin-left:10px;
+}
+.che{
+	position:absolute;
+    right:0px;
+    bottom:62px;
+}
+.hh li{
+	display:inline-block;
+	margin-top:25px;
+	margin-right:37px;
+	width:78px;
+	height:32px;
+	/* border:1px solid black; */
+	text-align:center;
+}
+.hh .mm{
+	margin-right:15px;
+	font-size:14.78px;
+	font-weight:bold;
+	width:124px;
+	height:32px;
+	background:url('所需小图/sanjiao.png') no-repeat 110px 5px;
+} 
+.hh li+li:hover{
+	width:78px;
+	height:32px;
+	border-bottom:3px solid #3aa747;
+}
+.hh .zz{
+	margin-right:12px;
+}
+.hh li a{
+	color:#050505;
+}
+.pho{
+	height:670px;
+	background:url("所需小图/banner.png") no-repeat center;
+}
+.po{
+	height:590px;
+	width:80px;
+	background-color:#030b0a;
+	float:right;
+	position:fixed;
+	right:0;
+}
+.po ul li{
+	height:73px;
+	border-bottom:2px solid #5d605f;
+	text-align:center;
+	padding-top: 43px;
+}
+.items{
+	width:1200px;
+	height:1016px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.items .first {
+	width:1200px;
+	height:60px;
+	margin-top:35px;
+}
+.items .first a{
+	color:#8d8d8d;
+	font-size:14px;
+
+}
+.items .first span a{
+	font-size:16.78px;
+	color:#050505;
+}
+.first .tail{
+	float:right;
+	font-size:14px;
+	color:#8d8d8d;
+}
+.jj1{
+	width:1200px;
+	height:44px;
+	border:1px solid #cccccc;
+}
+.jj1 li{
+	float:left;
+	text-align:center;
+	line-height:44px;
+	width:110px;
+	color:#737373;
+	font-size:16px;
+}
+.jj1 .zz1{
+    color:#000000;
+    background-color:#e5e5e5;
+}
+.jj2{
+	width:1200px;
+	height:44px;
+	border:1px solid #cccccc;
+}
+.jj2 li{
+	float:left;
+	text-align:center;
+	line-height:44px;
+	width:110px;
+	color:#737373;
+	font-size:16px;
+}
+.jj2 .zz2{
+    color:#000000;
+    background-color:#e5e5e5;
+}
+.jj3{
+	width:1200px;
+	height:44px;
+	border:1px solid #cccccc;
+}
+.jj3 li{
+	float:left;
+	text-align:center;
+	line-height:44px;
+	width:110px;
+	color:#737373;
+	font-size:16px;
+}
+.jj3 .zz3{
+    color:#000000;
+    background-color:#e5e5e5;
+}
+.yu{
+	width:1200px;
+	height:620px;
+	margin-bottom:142px;
+	margin-top:60px;
+}
+.yu li{
+	height:293px;
+	width:273px;
+	float:left;
+	position:relative;
+	border:1px solid #878787;
+}
+.yu li+li{
+	margin-left:32px;
+	margin-bottom:35px;
+}
+.yu li img{
+	padding-top:40px;
+	padding-left:40px;
+}
+.yu li .qqq{
+	padding-top:0;
+	padding-left:0;
+}
+.yu li div{
+	height:50px;
+	width:273px;
+    position:absolute;
+    bottom:0;
+    background-color:#282828;
+    opacity:0.9;
+}
+.yu li p{
+	text-align:center;
+	color:#ffffff;
+}
+.yu li div:hover{
+	height:193px;
+	width:273px;
+	text-align:center;
+	line-height:30px;
+	padding-top:100px;
+}
+.xx{
+	height:102px;
+	background-color:#f5f5f5;
+}
+.xx1{
+	width:1200px;
+	height:102px;
+	margin:0 auto;
+	
+}
+.xx1 li{
+	width:300px;
+	height:68px;
+	float:left;
+	padding-top:34px;
+}
+.xx1 li+li img{
+	padding-left:50px;
+}
+.xx1 .f1 img{
+    padding-left:35px;
+}
+.xx1 .f1 div{
+	float:right;
+}
+.xx1 li div{
+	float:right;
+	margin-right:40px;
+}
+.xx1 div p{
+	font-size:19px;
+}
+.claim{
+	height:100px;
+	background-color:#323232;
+}
+.claim1{
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.claim1 div{
+	margin-top:30px;
+}
+.claim1 p{
+	text-align:center;
+	color:#ffffff;
+	line-height:30px;
+}
